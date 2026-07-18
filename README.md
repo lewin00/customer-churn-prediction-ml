@@ -179,19 +179,24 @@ POST /predict
 
 # 📁 Project Structure
 
-```
-customer-churn-prediction/
+```text
+customer-churn-prediction-ml/
 
 │── app.py
 │── train.py
+│── evaluation.py
 │── model.pkl
 │── dataset.csv
 │── requirements.txt
 │── README.md
+│── .gitignore
 
-├── screenshots/
-│     ├── swagger.png
-│     └── prediction.png
+├── images/
+│     └── model_accuracy.png
+
+└── screenshots/
+      ├── swagger.png
+      └── prediction.png
 ```
 
 ---
@@ -201,7 +206,7 @@ customer-churn-prediction/
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/customer-churn-prediction.git
+git clone https://github.com/lewin00/customer-churn-prediction-ml.git
 ```
 
 Navigate to the project
@@ -258,11 +263,16 @@ http://127.0.0.1:8000/docs#/
 - Interactive frontend dashboard
 
 ---
+---
 
+# 📄 License
+
+This project was developed for educational and portfolio purposes.
+---
 # 👨‍💻 Author
 
 **Lewin Johnson**
 
 B.Tech Computer Science & Design
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: https://github.com/lewin00
