@@ -92,6 +92,6 @@ print("F1 Score :", f1_score(y_test, rf_pred))
 # -------------------------
 print("\nColumns used for training:")
 print(X.columns.tolist())
-joblib.dump(rf, "model.pkl")
+joblib.dump(lr, "model.pkl")
 
 print("\nModel saved as model.pkl")

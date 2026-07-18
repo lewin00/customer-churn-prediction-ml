@@ -46,9 +46,9 @@ def predict(customer: CustomerData):
     else:
         result = "No Churn"
 
-return {
-    "prediction": result,
-    "model": "Random Forest",
-    "status": "Success",
-    "message": "Prediction generated successfully"
-}
+    return {
+        "prediction": result,
+        "model": "Logistic Regression",
+        "status": "Success",
+        "message": "Prediction generated successfully"
+    }
